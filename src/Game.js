@@ -8,6 +8,7 @@ class Game extends Component
           <div className="game-board">
             <Board />
           </div>
+          
     )
   }
 }

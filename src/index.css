@@ -10,6 +10,7 @@ body {
   clear: both;
   content: "";
   display: table;
+  
 }
 .status{
   font-weight: bolder;

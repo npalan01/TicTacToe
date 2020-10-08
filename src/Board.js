@@ -23,6 +23,7 @@ class Board extends Component {
             <Square value={this.state.squares[i]}
                     onClick={() =>{this.handleClick(i)}}
             />
+            
         )
     }
 
