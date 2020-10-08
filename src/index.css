@@ -1,13 +1,47 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font: 14px "Century Gothic", Futura, sans-serif;
+    background-image: url("./images/background.jpg");   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.board-row:after{
+  clear: both;
+  content: "";
+  display: table;
 }
+.status{
+  font-weight: bolder;
+  font-size: 60px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.square{
+ /* background: #fff;*/
+  border: 2px solid #000;
+  float:left;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 80px;
+  height: 80px;
+  /*margin-right: -1px;
+  margin-top: -1px;*/
+  padding:0;
+  text-align: center;
+  width: 80px;
+}
+
+.square:focus{
+  outline:none;
+}
+/*
+.kbd-navigation .square:focus{
+  background: #ddd;
+}*/
+
+.game-board{
+  margin-left: 550px;
+}
+
